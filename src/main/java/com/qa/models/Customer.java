@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Builder
 @Data
 @NoArgsConstructor
@@ -13,13 +15,9 @@ public class Customer extends Model {
 
     private String id;
 
-    private String email;
+    private String name;
 
-    private String firstName;
-
-    private String lastName;
-
-    private String occupation;
+    private List<String> pets;
 
     private BankDetails bankDetails;
 

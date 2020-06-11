@@ -10,6 +10,6 @@ Feature: A user can log in
   Scenario: User can successfully login with data
     When the following user attempts to login:
       | username | password |
-      | test    | pass     |
+      | test    | password123     |
     Then the user receives an Unauthorised response
 
