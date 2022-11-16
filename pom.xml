@@ -16,7 +16,7 @@
         <spring.version>5.2.6.RELEASE</spring.version>
         <cucumber.version>5.5.0</cucumber.version>
         <lombok.version>1.18.12</lombok.version>
-        <jackson.version>2.10.4</jackson.version>
+        <jackson.version>2.12.7.1</jackson.version>
         <beanutils.version>1.9.3</beanutils.version>
         <okhttp.version>4.5.0</okhttp.version>
         <logback.version>1.2.3</logback.version>
